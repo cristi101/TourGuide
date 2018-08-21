@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="key">#,dQHc%Z0[FSG&#38;&#38;I RM@MfNl\\_e;#t!2\"ZCaw\'M</string>
+
+    <!-- password dialog -->
+    <string name="dialog_title">Password</string>
+    <string name="dialog_message">You can change it from settings.</string>
+    <string name="ok_label">OK</string>
+    <string name="cancel_label">Cancel</string>
+
+    <!--settings -->
+    <string name="settings_title">Settings</string>
+    <string name="passwordTitle">Password</string>
+    <string name="password_hint">Enter the password here</string>
+    <string name="passwordSummary">for decoding the API key</string>
+    <string name="password">password</string>
+
+    <string name="first_page">First</string>
+    <string name="next_page">Next</string>
+
+    <string name="no_places">No places found!</string>
+    <string name="no_details">No details</string>
+
+    <string name="category_lodging">Lodging</string>
+    <string name="category_restaurant">Restaurants</string>
+    <string name="category_bar">Bars</string>
+    <string name="category_cafe">Cafés</string>
+    <string name="category_churches">Churches</string>
+    <string name="category_museums">Museums</string>
+    <string name="category_parks">Parks</string>
+
+    <string name="rating">Rating</string>
+    <string name="level">Price level</string>
+    <string name="try_again">Try again</string>
+
+</resources>

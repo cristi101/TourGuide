@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/gap"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/gap"
+        android:layout_marginRight="@dimen/gap" />
+
+    <TextView
+        android:id="@+id/address"
+        style="@style/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/gap"
+        android:layout_marginRight="@dimen/gap" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/gap"
+        android:adjustViewBounds="true"
+        android:background="@color/frame"
+        android:padding="@dimen/gap"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/gap"
+        android:layout_marginRight="@dimen/gap"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:labelFor="@id/rating"
+            android:text="@string/rating" />
+
+        <RatingBar
+            android:id="@+id/rating"
+            style="@style/ratingStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/gap"
+            android:layout_marginRight="@dimen/gap"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="0.1"/>
+
+        <TextView
+            android:id="@+id/level_label"
+            style="@style/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:labelFor="@id/level"
+            android:text="@string/level" />
+
+        <RatingBar
+            android:id="@+id/level"
+            style="@style/ratingStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/gap"
+            android:layout_marginRight="@dimen/gap"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/open"
+        style="@style/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/gap" />
+
+    <LinearLayout
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/gap"
+        android:layout_marginRight="@dimen/gap"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/gap"
+            android:layout_gravity="center"
+            android:src="@drawable/call" />
+
+        <TextView
+            android:id="@+id/phone"
+            style="@style/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/gap"
+        android:layout_marginRight="@dimen/gap"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/gap"
+            android:layout_gravity="center"
+            android:src="@drawable/web" />
+
+        <TextView
+            android:id="@+id/website"
+            style="@style/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
